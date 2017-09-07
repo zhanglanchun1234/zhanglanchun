@@ -1,0 +1,10 @@
+{
+    "name": "administrator/zhanglanchun",
+    "authors": [
+        {
+            "name": "lan",
+            "email": "lan@qq.com"
+        }
+    ],
+    "require": {}
+}
