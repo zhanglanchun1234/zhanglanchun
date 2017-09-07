@@ -1,10 +1,20 @@
 {
-    "name": "administrator/zhanglanchun",
-    "authors": [
-        {
-            "name": "lan",
-            "email": "lan@qq.com"
-        }
-    ],
-    "require": {}
+    "name": "zhanglanchun1234/test",
+    "description": "this is test",
+    "type": "project",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"app\\":"app/",
+    		"core\\":"core/",
+    		"system\\":"system/"
+    	},
+    	"files":[
+    		"system/functions.php"
+    	]
+    }
 }
